@@ -6,7 +6,7 @@ var express = require('../')
   , Route = express.Route
   , methods = require('methods')
 
-describe('Route', function(){
+describe('Route',  function(){
   it('should work without handlers', function(done) {
     var req = { method: 'GET', url: '/' }
     var route = new Route('/foo')
